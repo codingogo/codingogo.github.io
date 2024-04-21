@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>git cheatsheet</title>
+    <link href="/2024/04/20/git-cheatsheet/"/>
+    <url>/2024/04/20/git-cheatsheet/</url>
+    
+    <content type="html"><![CDATA[<h1 id="GCS-Git-Cheat-Sheet"><a href="#GCS-Git-Cheat-Sheet" class="headerlink" title="GCS - Git Cheat Sheet"></a>GCS - Git Cheat Sheet</h1><h2 id="Git-file-lifecycle"><a href="#Git-file-lifecycle" class="headerlink" title="Git file lifecycle"></a>Git file lifecycle</h2><p><img src="/../img/gitFileLifecycle.jpg" alt="gitFileLifecycle"></p><h2 id="Initial-configuration"><a href="#Initial-configuration" class="headerlink" title="Initial configuration"></a>Initial configuration</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;my name&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;my email&quot;</span><br>git config --global credential store<br></code></pre></td></tr></table></figure><h2 id="Branches"><a href="#Branches" class="headerlink" title="Branches"></a>Branches</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs bash"># list branches<br>git branch # list all branches in local repo. The current active branch will be marked with *<br>git branch -r # list remote branches<br>git branch -a # list all branches<br># switch branch<br>git branch &lt;branch-name&gt; # create a new branch<br>git checkout -b &lt;branch-name&gt; # swith to new-branch and update work erea<br>git switch &lt;branch-name&gt;<br># delete a branch<br>git branch -d &lt;branch-name&gt; # delete a branch which is already merged<br>git branch -D &lt;branch-name&gt; # dlete a branch with not checking if it is already merged<br># tag<br>git tag &lt;tag-name&gt; # give a tag for release<br># merge<br>git merge --no-ff -m &lt;message&gt; &lt;branch-name&gt;   # new commmit<br>git squash &lt;branch-name&gt;<br># rebase<br>git rebase &lt;branch-name&gt; # no new commit, just sort of copying all commits to target branch<br># reset<br>git mv<br><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>test post</title>
     <link href="/2024/04/20/test-post/"/>
     <url>/2024/04/20/test-post/</url>
